@@ -6,7 +6,7 @@ Sharing quick droppers, payloads and file transfer at high speed
 <pre> wget https://github.com/efxtv/efxshare/raw/main/termux/efxshare;mv efxshare /data/data/com.termux/files/usr/bin/;chmod +x /data/data/com.termux/files/usr/bin/efxshare </pre>
 <br />
 <b>Stup in Ubuntu/Kali/Debian</b>
-<pre> wget https://github.com/efxtv/efxshare/raw/main/others/efxshare;mv efxshare /usr/bin/;chmod +x /usr/bin/efxshare </pre>
+<pre> wget https://github.com/efxtv/efxshare/raw/main/others/efxshare;sudo mv efxshare /usr/bin/;sudo chmod +x /usr/bin/efxshare </pre>
 <br />
 <b>Setup NGROK</b>
 Go to https://ngrok.com/

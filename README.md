@@ -15,5 +15,11 @@ Login with real email id, do not use temp email. It can reduce the speed and con
 <br />
 Verify your email addres by logging in to the email.
 <br />
-Download the file, by clicking on it (do not wget specially for termux). Once you visit the site you have to click on the button as shown below.
+Download the file, by clicking on it (do not wget specially for termux). Once you visit the site you have to click on the button as shown below.<br />
+<a href="https://youtu.be/zTsnjaCxcMo"><img src="https://raw.githubusercontent.com/efxtv/efxshare/main/ngrok-demo.jpg" alt="EFX TV"></a><br />
+<br />
+<b>Unzip the downloaded file</b>
+<pre>unzip filename.zip</pre>
+<br /><br />
+Verify the auth tocken. For that you need to wath the video will be shared soon.
 

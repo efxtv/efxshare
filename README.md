@@ -15,5 +15,5 @@ Login with real email id, do not use temp email. It can reduce the speed and con
 <br />
 Verify your email addres by logging in to the email.
 <br />
-Download the file, by clicking on it (do not wget specially for termux)
+Download the file, by clicking on it (do not wget specially for termux). Once you visit the site you have to click on the button as shown below.
 

